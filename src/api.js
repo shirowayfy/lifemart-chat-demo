@@ -12,7 +12,7 @@ class Storage {
 }
 
 const instance = axios.create({
-  baseURL: "http://localhost:1337/api",
+  baseURL: "https://thoughtful-beauty-e454f50ff1.strapiapp.com/api",
 });
 
 export default class API {

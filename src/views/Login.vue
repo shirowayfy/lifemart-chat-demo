@@ -28,7 +28,7 @@ import { useRouter } from "vue-router";
 const { setUser, setRequest } = useStore();
 const router = useRouter();
 
-const email = ref("barboskin@gmail.com");
+const email = ref("avainer@gmail.com");
 const password = ref("qwerty");
 
 const submit = () => {
