@@ -86,7 +86,7 @@ const { user, request } = storeToRefs(store);
 
 const url = "https://thoughtful-beauty-e454f50ff1.strapiapp.com";
 
-const socket = io("ws://thoughtful-beauty-e454f50ff1.strapiapp.com", {
+const socket = io("wss://thoughtful-beauty-e454f50ff1.strapiapp.com", {
   query: {
     jwt: API.getToken(),
   },
